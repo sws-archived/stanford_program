@@ -1,0 +1,7 @@
+Stanford Program x.x-x.x xxxx-xx-xx
+--------------------------------------
+
+Stanford Program 7.x-1.0-alpha01 2014-03-06
+---------------------------------------------
+Brand spankin' new.
+
