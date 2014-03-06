@@ -59,10 +59,10 @@ function stanford_program_field_default_field_instances() {
     'bundle' => 'stanford_program',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Select an image for the program and add an optional caption.',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'field_collection',
         'settings' => array(
           'add' => '',
@@ -105,7 +105,7 @@ function stanford_program_field_default_field_instances() {
     'description' => 'This textfield provides a description of the program.',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
@@ -168,10 +168,10 @@ function stanford_program_field_default_field_instances() {
     'bundle' => 'stanford_program',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'To add a link for this program enter the title for the link in the  <strong>Title</strong> and add the link in the <strong>URL</strong> field (e.g., http://www.stanford.edu).',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(),
         'type' => 'link_default',
@@ -221,7 +221,9 @@ function stanford_program_field_default_field_instances() {
   t('Body');
   t('Description');
   t('Image');
+  t('Select an image for the program and add an optional caption.');
   t('This textfield provides a description of the program.');
+  t('To add a link for this program enter the title for the link in the  <strong>Title</strong> and add the link in the <strong>URL</strong> field (e.g., http://www.stanford.edu).');
   t('link');
 
   return $field_instances;

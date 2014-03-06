@@ -14,6 +14,7 @@ features[features_api][] = api:2
 features[field_base][] = body
 features[field_base][] = field_s_program_description
 features[field_base][] = field_s_program_link
+features[field_group][] = group_s_link|node|stanford_program|default
 features[field_group][] = group_s_postcard_content|node|stanford_program|default
 features[field_group][] = group_s_postcard_image|node|stanford_program|default
 features[field_group][] = group_s_postcard|node|stanford_program|default
