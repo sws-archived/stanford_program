@@ -1,4 +1,5 @@
 name = Stanford Program
+description = Content type and VBO for the Stanford Program. 
 core = 7.x
 package = Stanford
 version = 7.x-1.0-alpha01
@@ -35,4 +36,5 @@ features_exclude[dependencies][features] = features
 features_exclude[dependencies][field_collection] = field_collection
 features_exclude[dependencies][link] = link
 features_exclude[dependencies][strongarm] = strongarm
+features_exclude[field_group][group_s_body_style|node|stanford_program|default] = group_s_body_style|node|stanford_program|default
 project path = sites/all/modules/stanford

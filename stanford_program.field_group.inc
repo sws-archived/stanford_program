@@ -21,7 +21,7 @@ function stanford_program_field_group_info() {
   $field_group->parent_name = 'group_s_postcard_content';
   $field_group->data = array(
     'label' => 'Link group',
-    'weight' => '6',
+    'weight' => '14',
     'children' => array(
       0 => 'field_s_program_link',
     ),
@@ -54,9 +54,9 @@ function stanford_program_field_group_info() {
     'label' => 'Postcard Content',
     'weight' => '6',
     'children' => array(
-      0 => 'body',
-      1 => 'field_s_program_description',
-      2 => 'group_s_link',
+      0 => 'field_s_program_description',
+      1 => 'group_s_link',
+      2 => 'group_s_body_style',
     ),
     'format_type' => 'div',
     'format_settings' => array(
