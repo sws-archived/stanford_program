@@ -54,8 +54,7 @@ function stanford_program_field_group_info() {
     'label' => 'Postcard Content',
     'weight' => '6',
     'children' => array(
-      0 => 'field_s_program_description',
-      1 => 'group_s_link',
+      0 => 'group_s_link',
     ),
     'format_type' => 'div',
     'format_settings' => array(
