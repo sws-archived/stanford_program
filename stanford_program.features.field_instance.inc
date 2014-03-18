@@ -81,7 +81,7 @@ function stanford_program_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 4,
+      'weight' => 6,
     ),
   );
 
@@ -137,7 +137,7 @@ function stanford_program_field_default_field_instances() {
       'module' => 'field_collection',
       'settings' => array(),
       'type' => 'field_collection_embed',
-      'weight' => 1,
+      'weight' => 3,
     ),
   );
 
@@ -197,7 +197,7 @@ function stanford_program_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 2,
+      'weight' => 4,
     ),
   );
 
@@ -270,7 +270,50 @@ function stanford_program_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 3,
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance: 'node-stanford_program-field_s_program_type'
+  $field_instances['node-stanford_program-field_s_program_type'] = array(
+    'bundle' => 'stanford_program',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'This program type term provides the name for this node. Create only one node per term.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 15,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_s_program_type',
+    'label' => 'Program Type',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 2,
     ),
   );
 
@@ -278,9 +321,11 @@ function stanford_program_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Body');
   t('Image');
+  t('Program Type');
   t('Select an image for the program and add an optional caption.');
   t('Summary');
   t('This body text displays on the landing page (node display) for the program.');
+  t('This program type term provides the name for this node. Create only one node per term.');
   t('This text field displays a summary of the program on the homepage.');
   t('To add a link for this program enter the title for the link in the  <strong>Title</strong> and add the link in the <strong>URL</strong> field (e.g., http://www.stanford.edu).');
   t('link');

@@ -50,16 +50,16 @@ function stanford_program_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'metatags' => array(
-          'weight' => '7',
+          'weight' => '9',
         ),
         'title' => array(
           'weight' => '0',
         ),
         'path' => array(
-          'weight' => '5',
+          'weight' => '7',
         ),
         'redirect' => array(
-          'weight' => '6',
+          'weight' => '8',
         ),
       ),
       'display' => array(),
