@@ -13,6 +13,34 @@ function stanford_program_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'additional_settings__active_tab_stanford_program';
+  $strongarm->value = 'edit-auto-nodetitle';
+  $export['additional_settings__active_tab_stanford_program'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'ant_pattern_stanford_program';
+  $strongarm->value = '[node:field_s_program_type]';
+  $export['ant_pattern_stanford_program'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'ant_php_stanford_program';
+  $strongarm->value = 0;
+  $export['ant_php_stanford_program'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'ant_stanford_program';
+  $strongarm->value = '1';
+  $export['ant_stanford_program'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_node__stanford_program';
   $strongarm->value = array(
     'view_modes' => array(
