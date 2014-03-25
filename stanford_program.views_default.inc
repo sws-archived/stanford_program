@@ -22,7 +22,7 @@ function stanford_program_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Manage Publications';
+  $handler->display->display_options['title'] = 'Manage Programs';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['access']['perm'] = 'administer nodes';
@@ -318,6 +318,7 @@ function stanford_program_views_default_views() {
   $handler->display->display_options['fields']['field_s_program_link']['label'] = 'links';
   $handler->display->display_options['fields']['field_s_program_link']['click_sort_column'] = 'url';
   $handler->display->display_options['fields']['field_s_program_link']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_s_program_link']['multi_type'] = 'ul';
   /* Field: Content: Published */
   $handler->display->display_options['fields']['status']['id'] = 'status';
   $handler->display->display_options['fields']['status']['table'] = 'node';
