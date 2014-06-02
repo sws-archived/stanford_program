@@ -54,4 +54,4 @@ features[variable][] = node_submitted_stanford_program
 features[views_view][] = stanford_program_manage
 features_exclude[field_group][group_s_body_style|node|stanford_program|default] = group_s_body_style|node|stanford_program|default
 no autodetect = 1
-project path = sites/all/modules/stanford
+project path = sites/default/modules/stanford

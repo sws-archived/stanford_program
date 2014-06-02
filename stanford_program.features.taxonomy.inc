@@ -10,7 +10,7 @@
 function stanford_program_taxonomy_default_vocabularies() {
   return array(
     'stanford_program_type' => array(
-      'name' => 'Program Type',
+      'name' => 'Art - Program Type',
       'machine_name' => 'stanford_program_type',
       'description' => '',
       'hierarchy' => 0,

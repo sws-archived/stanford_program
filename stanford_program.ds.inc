@@ -21,19 +21,19 @@ function stanford_program_ds_layout_settings_info() {
     'regions' => array(
       'ds_content' => array(
         0 => 'group_s_postcard',
-        1 => 'field_s_image_info',
-        3 => 'body',
-        4 => 'group_s_postcard_image',
-        5 => 'group_s_postcard_content',
-      ),
-      'stanford_program_links' => array(
-        2 => 'field_s_program_link',
+        1 => 'field_s_program_summary',
+        2 => 'field_s_image_info',
+        3 => 'field_s_program_link',
+        4 => 'body',
+        5 => 'group_s_postcard_image',
+        6 => 'group_s_postcard_content',
       ),
     ),
     'fields' => array(
       'group_s_postcard' => 'ds_content',
+      'field_s_program_summary' => 'ds_content',
       'field_s_image_info' => 'ds_content',
-      'field_s_program_link' => 'stanford_program_links',
+      'field_s_program_link' => 'ds_content',
       'body' => 'ds_content',
       'group_s_postcard_image' => 'ds_content',
       'group_s_postcard_content' => 'ds_content',
@@ -41,6 +41,7 @@ function stanford_program_ds_layout_settings_info() {
     'classes' => array(),
     'wrappers' => array(
       'ds_content' => 'div',
+      'ds_hidden' => 'div',
     ),
     'layout_wrapper' => 'div',
     'layout_attributes' => '',

@@ -29,7 +29,7 @@ function stanford_program_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 3,
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -81,7 +81,7 @@ function stanford_program_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 6,
+      'weight' => 5,
     ),
   );
 
@@ -100,7 +100,7 @@ function stanford_program_field_default_field_instances() {
           'delete' => '',
           'description' => 0,
           'edit' => '',
-          'view_mode' => 'stanford_large_scaled',
+          'view_mode' => 'stanford_large_custom',
         ),
         'type' => 'field_collection_view',
         'weight' => 6,
@@ -113,7 +113,7 @@ function stanford_program_field_default_field_instances() {
           'delete' => '',
           'description' => 0,
           'edit' => '',
-          'view_mode' => 'stanford_medium_square',
+          'view_mode' => 'stanford_large_custom',
         ),
         'type' => 'field_collection_view',
         'weight' => 1,
@@ -137,7 +137,7 @@ function stanford_program_field_default_field_instances() {
       'module' => 'field_collection',
       'settings' => array(),
       'type' => 'field_collection_embed',
-      'weight' => 3,
+      'weight' => 2,
     ),
   );
 
@@ -160,7 +160,7 @@ function stanford_program_field_default_field_instances() {
         'module' => 'link',
         'settings' => array(),
         'type' => 'link_default',
-        'weight' => 2,
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -216,9 +216,10 @@ function stanford_program_field_default_field_instances() {
         'weight' => 14,
       ),
       'full' => array(
-        'label' => 'above',
+        'label' => 'hidden',
+        'module' => 'text',
         'settings' => array(),
-        'type' => 'hidden',
+        'type' => 'text_default',
         'weight' => 0,
       ),
       'teaser' => array(
@@ -270,7 +271,7 @@ function stanford_program_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 5,
+      'weight' => 3,
     ),
   );
 

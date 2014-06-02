@@ -86,6 +86,8 @@ function stanford_program_field_group_info() {
     'weight' => '14',
     'children' => array(
       0 => 'body',
+      1 => 'field_s_program_link',
+      2 => 'field_s_program_summary',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -210,14 +212,14 @@ function stanford_program_field_group_info() {
     'label' => 'Postcard',
     'weight' => '0',
     'children' => array(
-      0 => 'group_s_postcard_image',
-      1 => 'group_s_postcard_content',
+      0 => 'group_s_postcard_content',
+      1 => 'group_s_postcard_image',
     ),
     'format_type' => 'div',
     'format_settings' => array(
       'label' => 'Postcard',
       'instance_settings' => array(
-        'classes' => 'postcard-left-wrap group-s-postcard field-group-div',
+        'classes' => 'postcard-right-wrap group-s-postcard field-group-div',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
