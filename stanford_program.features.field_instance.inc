@@ -90,7 +90,7 @@ function stanford_program_field_default_field_instances() {
     'bundle' => 'stanford_program',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'Select an image for the program and add an optional caption.',
+    'description' => 'When it is displayed the image will be scaled and cropped to 270 x 300 pixels. For optimal image quality, crop the image to 540 x 600 pixels.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -323,6 +323,7 @@ function stanford_program_field_default_field_instances() {
   t('Body');
   t('Image');
   t('Program Type');
+  t('When it is displayed the image will be scaled and cropped to 270 x 300 pixels. For optimal image quality, crop the image to 540 x 600 pixels.');
   t('Select an image for the program and add an optional caption.');
   t('Summary');
   t('This body text displays on the landing page (node display) for the program.');
