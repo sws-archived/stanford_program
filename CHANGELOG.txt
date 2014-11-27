@@ -1,6 +1,19 @@
 Stanford Program x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+Stanford Program 7.x-1.0 2014-03-06
+---------------------------------------------
+- Updated help text for Program Image field
+- Capturing layout and naming details
+- Changed title from Publications to Programs (oops) and add a list display of links
+- Add auto-node title variables
+- Replaced ER with Taxonomy
+- removed field_s_program_description
+- Added a views rewrite to the cards view
+- adding the views feature
+- Added ds.inc
+- Updated node display to use DS Full content
+
 Stanford Program 7.x-1.0-alpha01 2014-03-06
 ---------------------------------------------
 Brand spankin' new.
